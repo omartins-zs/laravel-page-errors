@@ -7,3 +7,5 @@ php artisan vendor:publish --tag=laravel-assets --ansi --force
 php artisan migrate
 npm install
 npm run dev
+
+php artisan vendor:publish --tag=laravel-errors
