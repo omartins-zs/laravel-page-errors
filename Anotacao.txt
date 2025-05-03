@@ -1,0 +1,9 @@
+composer require laravel/breeze --dev
+
+php artisan breeze:install
+
+php artisan vendor:publish --tag=laravel-assets --ansi --force
+
+php artisan migrate
+npm install
+npm run dev
